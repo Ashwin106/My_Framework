@@ -6,6 +6,7 @@
       <class name="com.ash.tests.EndTOEnd">
         <methods>
           <include name="endTOend"/>
+          <include name="launchBrowser"/>
         </methods>
       </class> <!-- com.ash.tests.EndTOEnd -->
     </classes>
