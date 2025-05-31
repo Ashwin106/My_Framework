@@ -9,15 +9,14 @@ import com.ash.utility.BasePage;
 public class EndTOEnd extends BasePage {
 	@Test
 	public void endTOend() throws Exception {
-		//launchBrowser();
+		// launchBrowser();
 
 		new LoginPage().enterusername().enterpassword().clickLogin();
 
 		// Admin page
-		new AdminPage().clickAdmin().userRole().
-		//employeeName().
-		employeeStatus();
-		
+		new AdminPage().clickAdmin().userRole().employeeName().employeeStatus().userName().enterPassword()
+				.confirmPassword().save();
+
 	}
 
 }

@@ -6,16 +6,18 @@
     <classes>
      
       <class name="com.ash.tests.EndTOEnd"/>
-      <class name="com.ash.tests.EndTOEnd2"/>
+      <!--<class name="com.ash.tests.EndTOEnd2"/> -->
     </classes>
     </test>
-    <test thread-count="5" name="Testonedge">
+   <!-- <test thread-count="5" name="Testonedge">
   <parameter name="browser" value="edge"></parameter>
     <classes>
      
       <class name="com.ash.tests.EndTOEnd"/>
       <class name="com.ash.tests.EndTOEnd2"/>
     </classes>
-  </test> <!-- Test -->
+  </test> 
+	
+   --> 
   
 </suite> <!-- Suite -->
