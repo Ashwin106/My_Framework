@@ -23,6 +23,7 @@ public class LoginPage extends BasePage {
 		return this;
 
 	}
+	//login page
 
 	public LoginPage clickLogin() {
 		clickBy(loginBtn, waitStrategy.VISIBLE);
