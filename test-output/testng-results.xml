@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-31T13:13:26 IST" name="Suite" finished-at="2025-05-31T13:13:52 IST" duration-ms="25570">
+  <suite started-at="2025-06-01T07:19:33 IST" name="Suite" finished-at="2025-06-01T07:20:04 IST" duration-ms="31019">
     <groups>
     </groups>
-    <test started-at="2025-05-31T13:13:26 IST" name="Testonchrome" finished-at="2025-05-31T13:13:52 IST" duration-ms="25570">
+    <test started-at="2025-06-01T07:19:33 IST" name="Testonchrome" finished-at="2025-06-01T07:20:04 IST" duration-ms="31019">
       <class name="com.ash.tests.EndTOEnd">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.ash.tests.EndTOEnd@62ddbd7e]" started-at="2025-05-31T13:13:26 IST" name="launchBrowser" finished-at="2025-05-31T13:13:31 IST" duration-ms="4484" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.ash.tests.EndTOEnd@62ddbd7e]" started-at="2025-06-01T07:19:33 IST" name="launchBrowser" finished-at="2025-06-01T07:19:37 IST" duration-ms="4345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="endTOend()[pri:0, instance:com.ash.tests.EndTOEnd@62ddbd7e]" started-at="2025-05-31T13:13:31 IST" name="endTOend" finished-at="2025-05-31T13:13:52 IST" duration-ms="21047" status="PASS">
+        <test-method signature="endTOend()[pri:0, instance:com.ash.tests.EndTOEnd@62ddbd7e]" started-at="2025-06-01T07:19:37 IST" name="endTOend" finished-at="2025-06-01T07:20:04 IST" duration-ms="26626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTOend -->

@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.ash.pages.AdminPage;
 import com.ash.pages.LoginPage;
+import com.ash.pages.RecruitmentPage;
 import com.ash.utility.BasePage;
 
 public class EndTOEnd extends BasePage {
@@ -17,6 +18,9 @@ public class EndTOEnd extends BasePage {
 		new AdminPage().clickAdmin().userRole().employeeName().employeeStatus().userName().enterPassword()
 				.confirmPassword().save();
 
+		new RecruitmentPage().recruitmentTabClick().name().selectVacancy().enterEmail().entercContactNumber().
+		// selectDate().
+				enterNotes();
 	}
 
 }
