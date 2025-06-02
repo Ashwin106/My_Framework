@@ -1,6 +1,9 @@
 package com.ash.pages;
 
+import java.util.Set;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 
 import com.ash.utility.BasePage;
 import com.ash.utils.waitStrategy;
@@ -27,6 +30,8 @@ public class LoginPage extends BasePage {
 
 	public LoginPage clickLogin() {
 		clickBy(loginBtn, waitStrategy.VISIBLE);
+		Set<Cookie> cookies=driver.manage().getCookies();
+		System.out.println(cookies);
 		return this;
 
 	}

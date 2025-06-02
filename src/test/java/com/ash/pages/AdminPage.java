@@ -56,19 +56,13 @@ public class AdminPage extends BasePage {
 
 	public AdminPage employeeName() throws Exception {
 
-		enterValue(employeeName, waitStrategy.VISIBLE, "Rahul  Das");
+		enterValue(employeeName, waitStrategy.VISIBLE, "Tracy  Carson");
 		Actions actions = new Actions(driver);
 		Thread.sleep(5000);
 		WebElement namelist = driver.findElement(roleList);
 		String nameText = namelist.getText();
 		String[] names = nameText.split("\\r\\n");
-		System.out.println("name text:" + nameText);
-		System.out.println(names.length);
-//		for(String name1:names) {
-//			System.out.println(name1);
-//		}
-
-		String name = "Rahul  Das";
+		String name = "Tracy  Carson";
 		for (String option : names) {
 			WebElement empname = namelist.findElement(By.xpath(".//*[contains(text(),'" + name + "')]"));
 			empname.click();
@@ -85,7 +79,6 @@ public class AdminPage extends BasePage {
 		WebElement StatusList = driver.findElement(userStatusdropDown);
 		String statusText = StatusList.getText();
 		String[] roles = statusText.split("\\r?\\n");
-
 		String status = "Enabled";
 
 		for (String option : roles) {
