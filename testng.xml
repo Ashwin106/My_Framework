@@ -9,7 +9,7 @@
       <!--<class name="com.ash.tests.EndTOEnd2"/> -->
     </classes>
     </test>
-   <!-- <test thread-count="5" name="Testonedge">
+    <test thread-count="5" name="Testonedge">
   <parameter name="browser" value="edge"></parameter>
     <classes>
      
@@ -18,6 +18,6 @@
     </classes>
   </test> 
 	
-   --> 
+    
   
 </suite> <!-- Suite -->
