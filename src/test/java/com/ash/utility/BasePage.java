@@ -36,7 +36,7 @@ public class BasePage {
 			driver = new EdgeDriver();
 		}
 
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		return driver;
 
